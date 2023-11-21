@@ -1,5 +1,5 @@
 const initialState = {
-    tasks: [], // initialisez tasks comme un tableau vide ou avec des tâches initiales
+    tasks: [], // initialiser tasks comme un tableau vide ou avec des tâches initiales
   };
   
   const taskReducer = (state = initialState, action) => {

@@ -3,12 +3,12 @@ import { useSelector } from 'react-redux';
 import Task from './Task';
 
 const TaskList = () => {
-  const tasks = useSelector((state) => state.tasks.tasks); // Assurez-vous que vous accédez aux tâches correctement
+  const tasks = useSelector((state) => state.tasks.tasks); 
 
-  console.log('Tasks:', tasks); // Vérifiez ici si vous obtenez les bonnes données
+  console.log('Tasks:', tasks);
 
   return (
-    <div>
+    <div className='container-task-list'>
       <h2>Liste des tâches</h2>
       {tasks.map((task) => (
         <Task key={task.id} task={task} />

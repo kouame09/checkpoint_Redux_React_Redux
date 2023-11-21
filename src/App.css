@@ -8,6 +8,31 @@ body {
 }
 
 /* Style pour le conteneur principal */
+.container-form-task{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container-task-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.container-edit-tesk{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
 
 .container {
   max-width: 1200px;
@@ -44,13 +69,14 @@ input[type="text"] {
 }
 
 button {
-  padding: 10px 30px;
+  padding: 15px 30px;
   font-size: 18px;
   border-radius: 5px;
   border: none;
   cursor: pointer;
   background-color: #e50914;
   color: white;
+  margin-left: 2rem;
 }
 
 /* Organisation de la liste des tâches dans une grille centrée */

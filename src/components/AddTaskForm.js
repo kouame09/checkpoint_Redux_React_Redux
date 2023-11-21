@@ -14,7 +14,7 @@ const AddTaskForm = () => {
   };
 
   return (
-    <div>
+    <div className='container-form-task'>
       <input
         type="text"
         value={taskDescription}

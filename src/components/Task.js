@@ -34,17 +34,17 @@ const Task = ({ task }) => {
           <button onClick={handleDeleteTask}>Supprimé</button>
         </>
       ) : (
-        <>
+        <div className='container-edit-tesk'>
           <input
             type="text"
             value={editedDescription}
             onChange={(e) => setEditedDescription(e.target.value)}
           />
           <button onClick={handleEditTask}>Sauvegardé</button>
-        </>
+        </div>
       )}
     </div>
-  );
+  ); 
 };
 
 export default Task;
